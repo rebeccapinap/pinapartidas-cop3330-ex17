@@ -17,16 +17,16 @@ public class App
 
         // Calculates Blood Alcohol Content based on user input
         System.out.print("Enter a 1 is you are male or a 2 if you are female: ");
-        double maleFemale = input.nextInt();
+        double maleFemale = input.nextDouble();
 
         System.out.print("How many ounces of alcohol did you have? ");
-        double ozAlc = input.nextInt();
+        double ozAlc = input.nextDouble();
 
         System.out.print("What is your weight, in pounds? ");
-        double weight = input.nextInt();
+        double weight = input.nextDouble();
 
         System.out.print("How many hours has it been since your last drink? ");
-        double hours = input.nextInt();
+        double hours = input.nextDouble();
 
         // Assigns constant for calculation based on if you are male or female
         if (maleFemale == 1)
